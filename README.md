@@ -1,1 +1,1 @@
-# botdomines
+# mines-bot
