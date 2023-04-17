@@ -1,6 +1,6 @@
 import telebot, pytz, time, random
 from datetime import datetime, timedelta
-key_api = "5328905392:AAG29HHnR1vZQpCs5wcAvtDMfhzqJXzfrMA"
+key_api = "5992692637:AAFNI31G_CnY06FPfsDpoT9oz5rfCiWRB8Y"
 bot = telebot.TeleBot(key_api)
 tz = pytz.timezone('America/Sao_Paulo')
 link_cadastro = "<a href='https://www.brabet.com/?agentid=140308861'> Cadastre aqui</a>"
@@ -34,7 +34,7 @@ while True:
     valid_until_str = valid_until.strftime("%H:%M") # formata a hora de validade em uma string
     matriz, n_minas = gerar_matriz()
     mensagem = mensagem_inicial + f"💣 Minas: {n_minas}\n🔁 Nº de tentativas: {gerar_gale(n_minas)}\n🕑 Válido até: {valid_until_str}\n\n🔗{link_cadastro}\n🔗{link_game}\n\n" + '\n'.join([''.join(['🟦' if valor == 0 else '⭐' for valor in linha]) for linha in matriz]).replace('0', '🟦').replace('1', '🟠')
-    chat_id = '-1001943217493'
+    chat_id = '-1001909314682'
     mensagem = bot.send_message(chat_id=chat_id, text="🔎 Validando entrada. Aguarde 🔎")
     time.sleep(18)
     nova_mensagem = mensagem_inicial + f"💣 Minas: {n_minas}\n🔁 Nº de tentativas: {gerar_gale(n_minas)}\n🕑 Válido até: {valid_until_str}\n\n🔗{link_cadastro}\n🔗{link_game}\n\n" + '\n'.join([''.join(['🟦' if valor == 0 else '⭐' for valor in linha]) for linha in matriz]).replace('0', '🟦').replace('1', '🟠')
