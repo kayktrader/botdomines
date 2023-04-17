@@ -1,7 +1,7 @@
 import telebot
 
 # Insira aqui o seu token do Telegram Bot
-TOKEN = '5328905392:AAG29HHnR1vZQpCs5wcAvtDMfhzqJXzfrMA'
+TOKEN = '5992692637:AAFNI31G_CnY06FPfsDpoT9oz5rfCiWRB8Y'
 bot = telebot.TeleBot(TOKEN)
 
 link = "<a href='https://www.brabet.com/?agentid=140308861'>CADASTRE-SE AQUI</a>"
