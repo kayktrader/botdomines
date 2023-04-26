@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 key_api = "5992692637:AAFNI31G_CnY06FPfsDpoT9oz5rfCiWRB8Y"
 bot = telebot.TeleBot(key_api)
 tz = pytz.timezone('America/Sao_Paulo')
-link_cadastro = "<a href='https://www.brabet.com/?agentid=140308861'> Cadastre aqui</a>"
-link_game = "<a href='https://www.brabet.com/?f=game_Mines'> Jogar agora</a>"
+link_cadastro = "<a href='https://go.aff.estrelabetpartners.com/tf7n0i06'> Cadastre aqui</a>"
+link_game = "<a href='https://go.aff.estrelabetpartners.com/tf7n0i06'> Jogar agora</a>"
 def gerar_matriz():
     n_minas = random.choice([2, 3, 4, 5])
     if n_minas == 2:
