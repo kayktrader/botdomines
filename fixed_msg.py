@@ -10,7 +10,7 @@ link = "<a href='https://go.aff.estrelabetpartners.com/tf7n0i06'>CADASTRE-SE AQU
 mensagem = f'🆘🆘 ATENÇÃO 🆘🆘\n\n⚠️ NOSSOS SINAIS SÓ FUNCIONA NA ESTRELABET ⚠️\n\nTEM MUITAS PESSOAS QUE ESTÃO TOMANDO RED PORQUE ESTÃO JOGANDO EM OUTRA CASA!\n\n🚨 NOSSOS SINAIS SÓ FUNCIONAM NA BRABET🚨\n\n ✍️ {link}\n\n CADASTRE-SE E COMECE A PEGAR OS GREEEENS'
 
 # Cria o botão
-botao = telebot.types.InlineKeyboardButton(text='R$ 300,00 🎁', url='https://go.aff.estrelabetpartners.com/tf7n0i06')
+botao = telebot.types.InlineKeyboardButton(text='R$ 500,00 🎁', url='https://go.aff.estrelabetpartners.com/tf7n0i06')
 
 # Cria o objeto de teclado inline e adiciona o botão
 teclado_inline = telebot.types.InlineKeyboardMarkup()
