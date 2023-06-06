@@ -7,7 +7,7 @@ bot = telebot.TeleBot(TOKEN)
 link = "<a href='https://shre.ink/QwD5'>CADASTRE-SE AQUI</a>"
 
 # Mensagem que será enviada
-mensagem = f'🆘🆘 ATENÇÃO 🆘🆘\n\n⚠️ NOSSOS SINAIS SÓ FUNCIONA NA GREN BET ⚠️\n\nTEM MUITAS PESSOAS QUE ESTÃO TOMANDO RED PORQUE ESTÃO JOGANDO EM OUTRA CASA!\n\n🚨 NOSSOS SINAIS SÓ FUNCIONAM NA GREEN BET🚨\n\n ✍️ {link}\n\n CADASTRE-SE E COMECE A PEGAR OS GREEEENS'
+mensagem = f'🆘🆘 ATENÇÃO 🆘🆘\n\n⚠️ NOSSOS SINAIS SÓ FUNCIONA NA GREEN BETS ⚠️\n\nTEM MUITAS PESSOAS QUE ESTÃO TOMANDO RED PORQUE ESTÃO JOGANDO EM OUTRA CASA!\n\n🚨 NOSSOS SINAIS SÓ FUNCIONAM NA GREEN BETS🚨\n\n ✍️ {link}\n\n CADASTRE-SE E COMECE A PEGAR OS GREEEENS'
 
 # Cria o botão
 botao = telebot.types.InlineKeyboardButton(text='R$ 500,00 🎁', url='https://shre.ink/QwD5')
