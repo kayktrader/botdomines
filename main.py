@@ -4,7 +4,7 @@ key_api = "5992692637:AAFNI31G_CnY06FPfsDpoT9oz5rfCiWRB8Y"
 bot = telebot.TeleBot(key_api)
 tz = pytz.timezone('America/Sao_Paulo')
 link_cadastro = "<a href='https://shre.ink/QwD5'> Cadastre aqui</a>"
-link_game = "<a href=https://shre.ink/QwD5'> Jogar agora</a>"
+link_game = "<a href='https://shre.ink/QwD5'> Jogar agora</a>"
 def gerar_matriz():
     n_minas = random.choice([2, 3, 4, 5])
     if n_minas == 2:
