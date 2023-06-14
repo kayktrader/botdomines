@@ -28,6 +28,8 @@ def gerar_gale(n_minas):
     return gale
 mensagem_inicial = f"💰 Entrada Confirmada 💰\n\n"
 while True:
+    key_api = "5992692637:AAFNI31G_CnY06FPfsDpoT9oz5rfCiWRB8Y"
+    bot = telebot.TeleBot(key_api)
     n_minas = None
     now = datetime.now(tz) # pega a hora atual
     valid_until = now + timedelta(minutes=3) # define a hora de validade com base na hora atual, adicionando 3 minutos
